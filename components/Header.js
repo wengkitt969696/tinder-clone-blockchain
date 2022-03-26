@@ -38,7 +38,7 @@ const Header = () => {
         </div>
       </div>
       <div className={style.rightMenu}>
-        <div>ENGLISH</div>
+        <div>English</div>
         {currentAccount ? (
           <>
             <div className={style.currentAccount}>

@@ -33,7 +33,7 @@ export const TinderProvider = ({ children }) => {
     if (!isAuthenticated) {
       try {
         await authenticate({
-          signingMessage: 'Log in using Moralis',
+          signingMessage: 'Log in to tinder clone using this wallet',
         })
       } catch (error) {
         console.error(error)
