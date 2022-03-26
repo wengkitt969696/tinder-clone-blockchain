@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import fire from '../assets/fire.png'
-import { useContext } from 'react'
+import React, { useContext } from 'react'
 import { TinderContext } from '../context/TinderContext'
 
 const style = {

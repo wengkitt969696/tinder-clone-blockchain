@@ -1,4 +1,5 @@
 import Card from '../components/Card'
+import React from 'react'
 import Header from '../components/Header'
 
 const style = {
